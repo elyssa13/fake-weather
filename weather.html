@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #1b64d6;
+        font-family: sans-serif;
+        font-size: 35px;
+        margin: 0px;
+      }
+      h2 {
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 35px;
+        font-weight: normal;
+        margin: 10px;
+      }
+      ul {
+        text-align: center;
+        list-style: none;
+        padding: 0;
+        font-family: monospace;
+        font-size: 20px;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+      }
+      h5 {
+        font-size: 20px;
+      }
+      li:hover {
+        background: #fffbef;
+        border-radius: 10px;
+        transition: all 200ms ease-in-out;
+        max-width: 400px;
+      }
+      button {
+        color: white;
+        background: #1b64d6;
+        display: block;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        margin: 20px auto;
+        font-size: 16px;
+        box-shadow: rgb(37 39 89 / 8%) 0px 8px 8px 0;
+        line-height: 22px;
+        padding: 16px 24px;
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        cursor: pointer;
+        background: white;
+        color: #1b64d6;
+      }
+      p {
+        text-align: center;
+        font-family: monospace;
+        font-size: 18px;
+        opacity: 0.7;
+      }
+      .current-temp {
+        font-weight: bold;
+      }
+      .tomorrow {
+        font-family: sans-serif;
+        margin: 5px;
+        font-size: 20px;
+      }
+      .saturday {
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      🌤
+      <br />
+      Currently 21° in Tokyo
+    </h1>
+    <h2>
+      13° /
+      <span class="current-temp">23°</span>
+    </h2>
+    <br />
+    <ul>
+      <li>
+        <h3><span class="tomorrow">🌧Tomorrow</span></h3>
+        <p>10° /<strong>22°</strong></p>
+      </li>
+      <li>
+        <h4><span class="saturday">⛅Saturday</span></h4>
+        <p>15° /<strong>17°</strong></p>
+      </li>
+      <li>
+        <h5><span class="sunday">☀Sunday</span></h5>
+        <p>25° /<strong>28°</strong></p>
+      </li>
+    </ul>
+    <button>Change city</button>
+    <p>Coded by Elyssa Sayers</p>
+  </body>
+</html>
